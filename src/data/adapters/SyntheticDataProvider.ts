@@ -1,5 +1,5 @@
-import { DataProvider, TimeSeries, MetricMetadata } from '../../models/timeseries';
-import { generateMacroMetrics, METRICS_METADATA } from './macroMetrics';
+import type { DataProvider, TimeSeries, MetricMetadata } from '../../models/timeseries';
+import { generateMacroMetrics, METRICS_METADATA } from '../../data/synthetic/macroMetrics';
 
 export class SyntheticDataProvider implements DataProvider {
   private metricsCache: Record<string, TimeSeries> | null = null;

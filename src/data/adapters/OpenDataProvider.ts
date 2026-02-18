@@ -1,4 +1,4 @@
-import { DataProvider, TimeSeries, MetricMetadata } from '../../models/timeseries';
+import type { DataProvider, TimeSeries, MetricMetadata } from '../../models/timeseries';
 
 /**
  * OpenDataProvider - Stub implementation for connecting to open data sources
@@ -16,10 +16,8 @@ import { DataProvider, TimeSeries, MetricMetadata } from '../../models/timeserie
  * 4. Validate with Zod schemas before returning
  */
 export class OpenDataProvider implements DataProvider {
-  private apiKey?: string;
-
-  constructor(apiKey?: string) {
-    this.apiKey = apiKey;
+  constructor(_apiKey?: string) {
+    // API key parameter reserved for future use
   }
 
   async getSeries(
@@ -41,7 +39,7 @@ export class OpenDataProvider implements DataProvider {
 
   async getLatest(
     metricId: string,
-    params?: Record<string, unknown>
+    _params?: Record<string, unknown>
   ): Promise<number | null> {
     // TODO: Implement latest value fetching
     throw new Error(

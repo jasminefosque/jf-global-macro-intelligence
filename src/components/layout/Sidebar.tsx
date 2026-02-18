@@ -1,4 +1,3 @@
-import React from 'react';
 import { getDataMode } from '../../data/adapters';
 
 export function Sidebar() {

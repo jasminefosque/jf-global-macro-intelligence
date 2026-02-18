@@ -1,4 +1,3 @@
-import React from 'react';
 import { useAppStore } from '../../lib/store';
 
 export function TopBar() {

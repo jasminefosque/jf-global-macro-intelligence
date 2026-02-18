@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { TimeSeries, MetricMetadata } from '../models/timeseries';
+import type { TimeSeries, MetricMetadata } from '../models/timeseries';
 import { getDataProvider } from '../data/adapters';
 
 export function useTimeSeries(metricId: string, params?: Record<string, unknown>) {

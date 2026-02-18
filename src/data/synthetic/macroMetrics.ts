@@ -1,4 +1,4 @@
-import { TimeSeries, MetricMetadata, ShockEvent } from '../../models/timeseries';
+import type { TimeSeries, MetricMetadata, ShockEvent } from '../../models/timeseries';
 import { SyntheticDataGenerator } from './generator';
 
 const START_DATE = new Date('2019-01-01');

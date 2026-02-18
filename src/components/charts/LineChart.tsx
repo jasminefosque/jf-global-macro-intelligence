@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 import {
   LineChart as RechartsLineChart,
   Line,
@@ -9,7 +9,7 @@ import {
   Legend,
   ResponsiveContainer,
 } from 'recharts';
-import { TimeSeries } from '../../models/timeseries';
+import type { TimeSeries } from '../../models/timeseries';
 import { ChartContainer } from './ChartContainer';
 
 interface LineChartProps {
@@ -103,7 +103,7 @@ export function LineChart({ title, description, series, loading, error }: LineCh
                 month: 'long',
                 day: 'numeric',
               })}
-              formatter={(value: number) => [value.toFixed(2), '']}
+              formatter={(value: number | undefined) => value !== undefined ? [value.toFixed(2), ''] : ['N/A', '']}
             />
             <Legend wrapperStyle={{ fontSize: '12px' }} />
             {seriesArray.map((s, index) => (

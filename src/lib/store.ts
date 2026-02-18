@@ -1,6 +1,6 @@
 import { create } from 'zustand';
 
-export interface DateRange {
+export interface DateRange extends Record<string, string> {
   startDate: string;
   endDate: string;
 }

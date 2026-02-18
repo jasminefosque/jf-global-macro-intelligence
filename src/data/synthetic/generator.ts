@@ -1,4 +1,4 @@
-import { Observation, ShockEvent } from '../models/timeseries';
+import type { Observation, ShockEvent } from '../../models/timeseries';
 
 interface GeneratorConfig {
   startDate: Date;

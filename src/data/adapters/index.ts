@@ -1,4 +1,4 @@
-import { DataProvider } from '../../models/timeseries';
+import type { DataProvider } from '../../models/timeseries';
 import { SyntheticDataProvider } from './SyntheticDataProvider';
 import { OpenDataProvider } from './OpenDataProvider';
 

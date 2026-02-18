@@ -1,5 +1,3 @@
-import React from 'react';
-
 interface KPICardProps {
   title: string;
   value: string | number;

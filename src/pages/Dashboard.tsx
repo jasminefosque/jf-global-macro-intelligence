@@ -1,4 +1,3 @@
-import React from 'react';
 import { KPICard } from '../components/KPICard';
 import { LineChart } from '../components/charts/LineChart';
 import { useTimeSeries, useLatestValue } from '../hooks/useData';

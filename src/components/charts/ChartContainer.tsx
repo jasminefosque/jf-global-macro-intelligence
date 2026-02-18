@@ -1,4 +1,4 @@
-import React, { RefObject } from 'react';
+import { type RefObject } from 'react';
 import { exportChartAsPNG } from '../../lib/chartExport';
 
 interface ChartContainerProps {
@@ -6,7 +6,7 @@ interface ChartContainerProps {
   description?: string;
   source?: string;
   children: React.ReactNode;
-  chartRef?: RefObject<HTMLDivElement>;
+  chartRef?: RefObject<HTMLDivElement | null>;
 }
 
 export function ChartContainer({ title, description, source, children, chartRef }: ChartContainerProps) {
