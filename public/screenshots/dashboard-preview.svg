@@ -1,0 +1,50 @@
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="#f9fafb"/>
+  
+  <!-- Header -->
+  <rect width="1200" height="100" fill="#ffffff"/>
+  <text x="50" y="45" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#111827">
+    Global Macro Intelligence Dashboard
+  </text>
+  <text x="50" y="75" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">
+    Portfolio Demonstration - Synthetic Data Mode
+  </text>
+  
+  <!-- KPI Cards -->
+  <rect x="50" y="130" width="260" height="120" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+  <text x="70" y="165" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">GDP Growth</text>
+  <text x="70" y="200" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#111827">2.3%</text>
+  
+  <rect x="330" y="130" width="260" height="120" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+  <text x="350" y="165" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">CPI Inflation</text>
+  <text x="350" y="200" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#111827">3.5%</text>
+  
+  <rect x="610" y="130" width="260" height="120" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+  <text x="630" y="165" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Policy Rate</text>
+  <text x="630" y="200" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#111827">4.5%</text>
+  
+  <rect x="890" y="130" width="260" height="120" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+  <text x="910" y="165" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Unemployment</text>
+  <text x="910" y="200" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#111827">4.2%</text>
+  
+  <!-- Charts -->
+  <rect x="50" y="280" width="550" height="240" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+  <text x="70" y="310" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#111827">GDP Growth YoY</text>
+  <polyline points="80,450 150,420 220,440 290,410 360,430 430,400 500,420 570,390" 
+            fill="none" stroke="#0ea5e9" stroke-width="2"/>
+  
+  <rect x="620" y="280" width="550" height="240" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+  <text x="640" y="310" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#111827">CPI Inflation YoY</text>
+  <polyline points="650,470 720,450 790,420 860,410 930,440 1000,420 1070,450 1140,430" 
+            fill="none" stroke="#8b5cf6" stroke-width="2"/>
+  
+  <rect x="50" y="540" width="550" height="240" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+  <text x="70" y="570" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#111827">Policy Rate</text>
+  <polyline points="80,710 150,700 220,690 290,680 360,710 430,720 500,730 570,740" 
+            fill="none" stroke="#10b981" stroke-width="2"/>
+  
+  <rect x="620" y="540" width="550" height="240" fill="#ffffff" stroke="#e5e7eb" stroke-width="1" rx="8"/>
+  <text x="640" y="570" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#111827">Global Risk Index</text>
+  <polyline points="650,680 720,650 790,670 860,640 930,690 1000,660 1070,680 1140,650" 
+            fill="none" stroke="#f59e0b" stroke-width="2"/>
+</svg>
